@@ -95,5 +95,5 @@ Sau khi chạy tests, báo cáo sẽ được tạo tại:
 
 ---
 
-**Sinh viên thực hiện**: Nguyễn Thị Hải Yến - 2021607634  
+**Sinh viên thực hiện**: Nguyễn Vũ Mai Anh - 2021608240  
 **Đồ án tốt nghiệp**: Kiểm thử tự động website thương mại điện tử

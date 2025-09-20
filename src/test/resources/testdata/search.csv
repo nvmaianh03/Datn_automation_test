@@ -1,0 +1,5 @@
+TestCase,SearchKeyword,SearchType,MinPrice,MaxPrice,Brand,ExpectedResult,Description
+tk1_searchByCorrectName,Áo thun,name,,,,,success,Search by correct product name
+tk2_searchByIncorrectName,xyz123,name,,,,,fail,Search by incorrect name
+tk3_searchByPrice,,price,100000,500000,,,success,Search by price range
+tk4_searchByBrand,,,,,Nike,success,Search by brand

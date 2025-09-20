@@ -1,0 +1,9 @@
+TestCase,Email,Password,ExpectedResult,Description
+dn1_loginSuccessfully,nguyenyen2003+15@gmail.com,Yen12345,success,Login with valid credentials
+dn2_loginWithWrongEmail,nguyenyen200@gmail.com,Yen12345,fail,Login with wrong email
+dn3_loginWithWrongPassword,nguyenyen2003+15@gmail.com,Yen1234566666,fail,Login with wrong password
+dn4_loginWithEmptyEmail,,Yen12345,fail,Login with empty email
+dn5_loginWithEmptyPassword,nguyenyen2003+15@gmail.com,,fail,Login with empty password  
+dn6_loginWithInvalidEmail,nguyenyen2003+15gmail.com,Yen12345,fail,Login with invalid email format
+dn7_loginWithPasswordHasOnlyNumbers,nguyenyen2003+15@gmail.com,11111111,fail,Login with numeric only password
+dn8_loginWithPasswordHasOnlyAlphabet,nguyenyen2003+15@gmail.com,yennguyen,fail,Login with alphabetic only password

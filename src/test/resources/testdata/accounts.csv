@@ -1,0 +1,7 @@
+AccountID,Description,Email,Password,FullName,ExpectedName,ExpectedEmail
+acc1_primary,Primary test account for cart and payment,nguyenyen2003+16@gmail.com,Yen12345,Nguyen Thi Hai Yen,Nguyen Thi Hai Yen,nguyenyen2003+16@gmail.com
+acc2_product,Account for product testing,nguyenyen2003+7@gmail.com,Yen12345,Nguyen Thi Hai Yen,Nguyen Thi Hai Yen,nguyenyen2003+7@gmail.com
+acc3_profile,Account for profile operations,nguyenyen2003+7@gmail.com,Yen12345,Nguyen Thi Hai Yen,Nguyen Thi Hai Yen,nguyenyen2003+5@gmail.com
+acc4_logout,Account for logout testing,nguyenyen2003+5@gmail.com,Yen12345,Nguyen Thi Hai Yen,Nguyen Thi Hai Yen,nguyenyen2003+5@gmail.com
+acc5_login,Primary login account,nguyenyen2003+15@gmail.com,Yen12345,Nguyen Thi Hai Yen,Nguyen Thi Hai Yen,nguyenyen2003+15@gmail.com
+acc6_changepass,Account for password change testing,nguyenyen2003+9@gmail.com,Yen12345,Nguyen Thi Hai Yen,Nguyen Thi Hai Yen,nguyenyen2003+9@gmail.com

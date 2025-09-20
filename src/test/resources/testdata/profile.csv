@@ -1,0 +1,4 @@
+TestCaseID,Description,FullName,Email,Phone,Address,DateOfBirth,ExpectedResult,TestEmail,Password,ExpectedName,ExpectedEmail
+tk1_updateProfileSuccess,Update profile successfully,Nguyen Van A,test@email.com,0123456789,123 ABC Street,01/01/1990,success,nguyenyen2003+7@gmail.com,Yen12345,Nguyen Thi Hai Yen,nguyenyen2003+5@gmail.com
+tk2_updateProfileInvalidEmail,Update profile with invalid email,Nguyen Van B,invalid-email,0987654321,456 DEF Street,01/01/1985,fail,nguyenyen2003+7@gmail.com,Yen12345,Nguyen Thi Hai Yen,nguyenyen2003+5@gmail.com
+tk3_updateProfileEmptyName,Update profile with empty name,,test2@email.com,0111222333,789 GHI Street,01/01/1992,fail,nguyenyen2003+7@gmail.com,Yen12345,Nguyen Thi Hai Yen,nguyenyen2003+5@gmail.com

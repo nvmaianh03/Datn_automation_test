@@ -1,0 +1,5 @@
+TestCaseID,Description,Email,Password,ExpectedResult
+tk1_loginSuccess,Login with valid credentials,nguyenyen2003+4@gmail.com,Yen12345,Login successful
+tk2_loginInvalidEmail,Login with invalid email,invalid@email.com,Yen12345,Login failed - invalid email
+tk3_loginInvalidPassword,Login with invalid password,nguyenyen2003+4@gmail.com,wrongpassword,Login failed - invalid password
+tk4_loginEmptyCredentials,Login with empty credentials,,,Login failed - empty credentials

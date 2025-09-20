@@ -1,0 +1,5 @@
+TestCaseID,Description,ProductName,Quantity,Action,TestEmail,Password,ExpectedResult
+tk1_addToCartSuccess,Add product to cart successfully,laptop,1,add,nguyenyen2003+4@gmail.com,Yen12345,success
+tk2_updateQuantity,Update product quantity in cart,laptop,2,update,nguyenyen2003+4@gmail.com,Yen12345,success
+tk3_removeFromCart,Remove product from cart,laptop,1,remove,nguyenyen2003+4@gmail.com,Yen12345,success
+tk4_addInvalidQuantity,Add product with invalid quantity,laptop,-1,add,nguyenyen2003+4@gmail.com,Yen12345,fail

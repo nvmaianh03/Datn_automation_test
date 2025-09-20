@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Website Testing Suite" parallel="false">
+    
+    <!-- Test with Chrome (default) -->
+    <test name="Chrome Tests" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!-- Current working tests -->
+            <class name="tc_website.tc_cartManagement"/>
+            <class name="tc_website.tc_changePassword"/>
+            <class name="tc_website.tc_login"/>
+            <class name="tc_website.tc_logout"/>
+            <class name="tc_website.tc_payment"/>
+            <class name="tc_website.tc_search"/>
+            <class name="tc_website.tc_updateProfile"/>
+            <class name="tc_website.tc_viewProductDetail"/>
+            <class name="tc_website.tc_viewProfile"/>
+        </classes>
+    </test>
+    
+    <!-- Data-Driven Tests -->
+    <test name="Data-Driven Tests" preserve-order="true">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tc_website.LoginTestDataDriven"/>
+        </classes>
+    </test>
+    
+</suite>

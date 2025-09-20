@@ -1,0 +1,3 @@
+TestCaseID,Description,TestEmail,ProductIndex,Size,Color,Quantity,ExpectedResult
+tk1_viewProductDetailSuccess,View product detail successfully,nguyenyen2003+4@gmail.com,1,Size M,Color Red,1,Product detail displayed
+tk2_addToCartFromDetail,Add to cart from product detail page,nguyenyen2003+4@gmail.com,2,Size L,Color Blue,2,Product added to cart successfully

@@ -1,0 +1,4 @@
+TestCaseID,Description,FullName,Address,City,PostalCode,Phone,PaymentMethod,CardNumber,CardHolder,ExpiryDate,CVV,ExpectedResult,TestEmail,Password
+tk1_paymentSuccess,Payment with valid card,Yen Nguyen,123 ABC Street,Ho Chi Minh,70000,01234567899,Credit Card,4111111111111111,Nguyen Van A,12/25,123,success,nguyenyen2003+16@gmail.com,Yen12345
+tk2_paymentInvalidCard,Payment with invalid card,Yen Nguyen,456 DEF Street,Ha Noi,10000,01234567899,Credit Card,1234567890123456,Nguyen Van B,01/20,999,fail,nguyenyen2003+16@gmail.com,Yen12345
+tk3_paymentCOD,Cash on delivery payment,Yen Nguyen,789 GHI Street,Da Nang,50000,01234567899,COD,,,,,,success,nguyenyen2003+16@gmail.com,Yen12345

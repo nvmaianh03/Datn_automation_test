@@ -1,0 +1,5 @@
+TestCaseID,Description,Name,Email,Password,ConfirmPassword,ExpectedResult
+tk1_registerSuccess,Register with valid information,Test User,testuser@example.com,TestPassword123,TestPassword123,Registration successful
+tk2_registerInvalidEmail,Register with invalid email format,Test User,invalidemail,TestPassword123,TestPassword123,Registration failed - invalid email
+tk3_registerPasswordMismatch,Register with password mismatch,Test User,testuser2@example.com,TestPassword123,DifferentPassword,Registration failed - password mismatch
+tk4_registerExistingEmail,Register with existing email,Test User,nguyenyen2003+4@gmail.com,TestPassword123,TestPassword123,Registration failed - email exists

@@ -8,7 +8,7 @@
     
     <!-- Project Information -->
     <groupId>tc.website</groupId>
-    <artifactId>DATN-NguyenThiHaiYen-2021607634</artifactId>
+    <artifactId>DATN-NguyenVuMaiAnh-2021608240</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
     
@@ -20,23 +20,16 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>3.141.59</selenium.version>
+        <selenium.version>4.21.0</selenium.version>
         <testng.version>7.4.0</testng.version>
     </properties>
     
     <!-- Dependencies -->
     <dependencies>
-        <!-- Selenium WebDriver -->
+        <!-- Selenium WebDriver với AI-powered locators -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>${selenium.version}</version>
-        </dependency>
-        
-        <!-- Selenium Server (equivalent to selenium-server-standalone) -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-server</artifactId>
             <version>${selenium.version}</version>
         </dependency>
         
@@ -47,12 +40,19 @@
             <version>${testng.version}</version>
         </dependency>
         
-        <!-- WebDriverManager (optional - helps manage ChromeDriver automatically) -->
+        <!-- WebDriverManager với Smart Detection -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>4.4.3</version>
+            <version>5.8.0</version>
             <scope>test</scope>
+        </dependency>
+        
+        <!-- Smart Locator AI Support -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>${selenium.version}</version>
         </dependency>
         
         <!-- Apache POI for Excel file reading -->
@@ -134,12 +134,7 @@
                         <suiteXmlFile>testng-all.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <!-- System properties for browser selection -->
-                    <systemProperties>
-                        <property>
-                            <name>browser</name>
-                            <value>${browser}</value>
-                        </property>
-                    </systemProperties>
+
                 </configuration>
             </plugin>
 

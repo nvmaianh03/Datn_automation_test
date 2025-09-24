@@ -11,6 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import tc_website.utils.TestDataManager;
 
+import java.time.Duration;
 import java.util.Map;
 
 public class tc_payment extends BaseTest {
@@ -51,7 +52,7 @@ public class tc_payment extends BaseTest {
 		txtTinh.click();
 		Thread.sleep(1000);
 
-		WebElement listTinh = driver.findElement(By.xpath("//span[contains(text(),'Hải Dương')]"));
+		WebElement listTinh = driver.findElement(By.xpath("//span[contains(text(),'Bắc Ninh')]"));
 		listTinh.click();
 		Thread.sleep(1000);
 
@@ -61,7 +62,7 @@ public class tc_payment extends BaseTest {
 		txtHuyen.click();
 		Thread.sleep(1000);
 
-		WebElement listHuyen = driver.findElement(By.xpath("//span[contains(text(),'Huyện Ninh Giang')]"));
+		WebElement listHuyen = driver.findElement(By.xpath("//span[contains(text(),'Huyện Yên Phong')]"));
 		listHuyen.click();
 		Thread.sleep(1000);
 
@@ -71,14 +72,14 @@ public class tc_payment extends BaseTest {
 		txtXa.click();
 		Thread.sleep(1000);
 
-		WebElement listXa = driver.findElement(By.xpath("//span[contains(text(),'Xã Kiến Phúc')]"));
+		WebElement listXa = driver.findElement(By.xpath("//span[contains(text(),'Xã Yên Trung')]"));
 		listXa.click();
 		Thread.sleep(1000);
 
 		// find and fill Street
 		WebElement txtDuong = driver.findElement(By.xpath(
 				"/html[1]/body[1]/div[1]/div[2]/main[1]/main[1]/form[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/textarea[1]"));
-		txtDuong.sendKeys("Đường 5");
+		txtDuong.sendKeys("Ngõ 1");
 		Thread.sleep(1000);
 		
 		//choose payment method 1:payInCash, 2:payWithMomo, 3:payWithZalopay
@@ -310,7 +311,7 @@ public class tc_payment extends BaseTest {
 		String firstTab = driver.getWindowHandle();
 
 		btnThanhToan();
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(driver -> ((JavascriptExecutor) driver)
 			    .executeScript("return document.readyState").equals("complete"));
 		Thread.sleep(2000);

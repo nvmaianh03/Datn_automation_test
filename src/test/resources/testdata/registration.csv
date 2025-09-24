@@ -1,10 +1,10 @@
 TestCase,Name,Email,Password,ConfirmPassword,ExpectedResult,Description
-dk1_registerSuccessfully,Nguyen Thi Hai Yen,nguyenyen2003+15@gmail.com,Yen12345,Yen12345,success,Register with valid data
-dky2_registerByExistedMail,Nguyen Thi Hai Yen,nguyenyen2003+11@gmail.com,Yen12345,Yen12345,fail,Register with existing email
-dk3_emptyName,,nguyenyen2003+11@gmail.com,Yen12345,Yen12345,fail,Register with empty name
-dk4_emptyEmail,Nguyen Thi Hai Yen,,Yen12345,Yen12345,fail,Register with empty email
-dk5_emptyPassword,Nguyen Thi Hai Yen,nguyenyen2003+11@gmail.com,,Yen12345,fail,Register with empty password
-dk6_emptyConfirmPassword,Nguyen Thi Hai Yen,nguyenyen2003+11@gmail.com,Yen12345,,fail,Register with empty confirm password
-dky7_InvalidMail,Nguyen Thi Hai Yen,.nguyenyen2003gmail.com,Yen12345,Yen12345,fail,Register with invalid email
-dky8_passwordHasOnlyNumbers,Yen Nguyen,nguyenyen2003+12@gmail.com,12345678,12345678,fail,Register with numeric password
-dky9_passwordHasOnlyAlphabet,Yen Nguyen,nguyenyen2003+12@gmail.com,nguyenyen,nguyenyen,fail,Register with alphabetic password
+dk1_registerSuccessfully,Nguyen Vu Mai Anh,maianh2003+2@gmail.com,maianh03,maianh03,success,Register with valid data
+dky2_registerByExistedMail,Nguyen Vu Mai Anh,maianh2003+1@gmail.com,maianh03,maianh03,fail,Register with existing email
+dk3_emptyName,,maianh2003+3@gmail.com,maianh03,maianh03,fail,Register with empty name
+dk4_emptyEmail,Nguyen Vu Mai Anh,,maianh03,maianh03,fail,Register with empty email
+dk5_emptyPassword,Nguyen Vu Mai Anh,maianh2003+3@gmail.com,,maianh03,fail,Register with empty password
+dk6_emptyConfirmPassword,Nguyen Vu Mai Anh,maianh2003+3@gmail.com,maianh03,,fail,Register with empty confirm password
+dky7_InvalidMail,Nguyen Vu Mai Anh,.maianh03gmail.com,maianh03,maianh03,fail,Register with invalid email
+dky8_passwordHasOnlyNumbers,Mai Anh,maianh2003+3@gmail.com,12345678,12345678,fail,Register with numeric password
+dky9_passwordHasOnlyAlphabet,Mai Anh,maianh2003+3@gmail.com,maianh,maianh,fail,Register with alphabetic password

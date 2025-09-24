@@ -34,7 +34,7 @@ public class BaseTest {
                 break;
             case "chrome":
             default:
-                // Auto-download and setup ChromeDriver
+                // Auto-download and setup ChromeDriver - force latest version
                 WebDriverManager.chromedriver().setup();
                 
                 // Optional: Chrome options for better automation

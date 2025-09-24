@@ -1,3 +1,0 @@
-TestCaseID,Description,TestEmail,ProductName,Size,Color,Quantity,PaymentMethod,CardHolderName,CardNumber,CVV,CardMonth,CardYear,Address,ExpectedResult
-tk1_paymentSuccess,Test payment with valid information,nguyenyen2003+4@gmail.com,Product Name,Size L,Color Red,2,Payment Card,Nguyen Thi Hai Yen,1234567890123456,123,12,2025,123 Test Street,Payment successful
-tk2_paymentInvalidCard,Test payment with invalid card information,nguyenyen2003+4@gmail.com,Product Name,Size M,Color Blue,1,Payment Card,Invalid Name,0000000000000000,000,01,2020,456 Invalid Address,Payment failed

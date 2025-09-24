@@ -1,4 +1,4 @@
 TestCaseID,Description,ProductName,ProductID,ExpectedResult,TestEmail,Password
-tk1_viewValidProduct,View valid product details,Laptop Dell,1,success,nguyenyen2003+7@gmail.com,Yen12345
-tk2_viewInvalidProduct,View invalid product,Non-existent Product,999,fail,nguyenyen2003+7@gmail.com,Yen12345
-tk3_viewProductImages,View product images,iPhone 14,2,success,nguyenyen2003+7@gmail.com,Yen12345
+tk1_viewValidProduct,View valid product details,Laptop Dell,1,success,maianh2003+product@gmail.com,maianh2003
+tk2_viewInvalidProduct,View invalid product,Non-existent Product,999,fail,maianh2003+product@gmail.com,maianh2003
+tk3_viewProductImages,View product images,iPhone 14,2,success,maianh2003+product@gmail.com,maianh2003

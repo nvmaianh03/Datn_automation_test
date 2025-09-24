@@ -58,7 +58,7 @@ public class tc_changePassword extends BaseTest {
 		// Wait web load
 		Thread.sleep(2000);
 
-		login("nguyenyen2003+15@gmail.com", "Yen12345");
+		login("nguyenvumaianh03@gmail.com", "maianh03");
 		btn_Login_click();
 		Thread.sleep(1000);
 		WebElement btn_closeMessage = driver.findElement(By.xpath("//button[@aria-label='close']//*[name()='svg']"));
@@ -82,7 +82,7 @@ public class tc_changePassword extends BaseTest {
 	@Test(priority = 1, enabled = true)
 	public void mk2_changePasswordSuccessfull() throws InterruptedException {
 		
-		changePassword("Yen12345", "Yen54321", "Yen54321");
+		changePassword("maianh03", "maianh03", "maianh03");
 		WebElement btn_submitChangePw = driver.findElement(By.xpath("(//span[@class='text-inherit'][contains(text(),'Lưu thay đổi')])[2]"));
 		btn_submitChangePw.click();
 		Thread.sleep(2000);
@@ -92,7 +92,7 @@ public class tc_changePassword extends BaseTest {
 	@Test(priority = 0, enabled = true)
 	public void mk1_wrongCurrentPassword() throws InterruptedException {
 		
-		changePassword("Yen54321", "Yen12345", "Yen12345");
+		changePassword("maianh2003", "maianh03", "maianh03");
 		WebElement btn_submitChangePw = driver.findElement(By.xpath("(//span[@class='text-inherit'][contains(text(),'Lưu thay đổi')])[2]"));
 		btn_submitChangePw.click();
 		Thread.sleep(2000);
